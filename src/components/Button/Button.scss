@@ -2,13 +2,13 @@
   width: 250px;
   height: 60px;
   color: #fff;
-  background-color: #F53838;
+  background-color: var(--primary);
   border-radius: 10px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .btn:hover {
-  color: #F53838;
+  color: var(--primary);
   background-color: #fff;
-  border: 1px solid #F53838;
+  border: 1px solid var(--primary);
 }
