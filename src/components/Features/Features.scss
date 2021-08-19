@@ -1,0 +1,40 @@
+.infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--w-desktop);
+  height: 650px;
+  gap: 170px;
+
+  img {
+    width: 510px;
+    height: 410px;
+  }
+
+  .info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    h1 {
+      font-size: 35px;
+      color: var(--title);
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--subtitle);
+    }
+
+    .feat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--subtitle)
+    }
+  }
+}
