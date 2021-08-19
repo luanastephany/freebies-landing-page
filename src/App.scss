@@ -1,5 +1,8 @@
 :root {
   --w-desktop: 1140px;
+  --primary: #F53838;
+  --title: #0B132A;
+  --subtitle: #4F5665;
 }
 
 * {
@@ -18,6 +21,7 @@ ul, li {
 
 main {
   display: flex;
+  padding-bottom: 100px;
   flex-direction: column;
   align-items: center;
   width: 100vw;
