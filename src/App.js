@@ -4,6 +4,7 @@ import About from './components/About'
 import Estatistics from './components/Estatistics';
 import Features from './components/Features';
 import Plans from './components/Plans/Plans';
+import Locations from './components/Locations';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Estatistics />
       <Features />
       <Plans />
+      <Locations />
 
     </main>
 
