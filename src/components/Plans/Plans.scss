@@ -4,45 +4,87 @@
   align-items: center;
   width: var(--w-desktop);
   height: 1090px;
-  background-color: #F6F6F6;
 
-  h1 {
-    margin-top: 80px;
+  .plan-title {
+    margin-top: 60px;
     margin-bottom: 20px;
     color: var(--title);
     font-size: 35px;
     font-weight: 500;
   }
 
-  p {
+  .sub {
     color: var(--subtitle);
     margin-bottom: 60px;
   }
 
-  .types {
+  .types { //tipos de planos
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap: 50px;
     height: 760px;
   }
 
+
   .plan { //cada caixa
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    width: 330px;
     border: 2px solid #DDDDDD;
+    cursor: pointer;
+    
+    &:hover {
+      border-color: var(--primary);
+    }
     
     img {
       display: flex;
       width: 145px;
       height: 165px;
+    }  
+
+    .texts {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      width: 100%;
+      color: var(--subtitle);
+     
+
+      p {
+        color: var(--title);
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .list {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        margin-bottom: 10px;
+        gap: 20px;
+
+        span {
+          font-size: 14px;
+        }
+      }
+      
     }
 
-  
-
     .prices {
-      
+      margin-bottom: 20px;
     }
   }
 }
