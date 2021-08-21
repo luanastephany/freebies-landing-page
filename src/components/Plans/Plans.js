@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Plans.scss'
 import { FaCheck } from 'react-icons/fa'
 import ButtonRound from '../ButtonRound'
 
-const Plan = ({ image, title, price, benefits }) => {
+const Plan = ({ image, title, price, benefits, selected, onClick }) => {
+  let classes = "plan"
+  if (selected) {
+    classes += " selected"
+  }
+
   return (
-    <div className="plan">
+    <div onClick={onClick} className={classes} >
       <img src={image} alt="" />
 
       <div className="texts">
@@ -31,6 +36,8 @@ const Plan = ({ image, title, price, benefits }) => {
 }
 
 const Plans = () => {
+  const [selected, setSelected] = useState("free")
+
   return (
     <div className="plans">
       <h1 className="plan-title">Choose Your Plan</h1>
@@ -41,6 +48,8 @@ const Plans = () => {
           image="/img/Free.png"
           title="Free Plan"
           price="Free"
+          selected={selected === "free"}
+          onClick={() => setSelected("free")}
           benefits={[
             "Unlimited Bandwitch",
             "Encrypted Connection",
@@ -53,6 +62,8 @@ const Plans = () => {
           image="/img/Standard.png"
           title="Standard Plan"
           price="$9/mo"
+          selected={selected === "standard"}
+          onClick={() => setSelected("standard")}
           benefits={[
             "Unlimited Bandwitch",
             "Encrypted Connection",
@@ -66,6 +77,8 @@ const Plans = () => {
           image="/img/Premium.png"
           title="Premium Plan"
           price="$12/mo"
+          selected={selected === "premium"}
+          onClick={() => setSelected("premium")}
           benefits={[
             "Unlimited Bandwitch",
             "Encrypted Connection",
