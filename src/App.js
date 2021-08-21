@@ -5,6 +5,8 @@ import Estatistics from './components/Estatistics';
 import Features from './components/Features';
 import Plans from './components/Plans/Plans';
 import Locations from './components/Locations';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Features />
       <Plans />
       <Locations />
+      <Footer />
 
     </main>
 
