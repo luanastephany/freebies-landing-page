@@ -9,8 +9,8 @@
   
   
 ## Sobre  
-Projeto realizado usando [Create React App](https://github.com/facebook/create-react-app). 
-
+- Projeto realizado usando [Create React App](https://github.com/facebook/create-react-app). 
+- Você pode encontrar o design no [Figma](https://www.figma.com/file/sctoqXaylCHZ6WPq4VYOlr/FREEBIES-Landingpage-LaslesVPN-Community?node-id=0%3A1) junto de todas as informações necessárias para o desenvolvimento. 
 
 ## 🚀 Tecnologias utilizadas
 - HTML
@@ -19,14 +19,16 @@ Projeto realizado usando [Create React App](https://github.com/facebook/create-r
 - React
     
 ## Bibliotecas:
-   [Slider - React Slick](https://react-slick.neostack.com/) - Carousel na parte de "Testimonials".<br />
-   [Faker](https://www.npmjs.com/package/faker) - Para gerar usuários randomicos na parte de "Testimonials" 
+   [Slider - React Slick](https://react-slick.neostack.com/) - carousel na parte de "Testimonials".<br />
+   [Faker](https://www.npmjs.com/package/faker) - para gerar usuários randomicos na parte de "Testimonials" <br />
+   [React Icons](https://react-icons.github.io/react-icons/) - icons do Font Awesome
     
     
-   
+    
+## Executando   
 ### `yarn start`
 
-Executa o projeto no modo de desenvolvimento. 
+Executa o projeto no modo de desenvolvimento. <br />
 Abra [http://localhost:3000](http://localhost:3000) para visualizar o projeto. 
 
 
