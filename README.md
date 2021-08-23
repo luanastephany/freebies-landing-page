@@ -12,6 +12,18 @@
 Projeto realizado usando [Create React App](https://github.com/facebook/create-react-app). 
 
 
+## 🚀 Tecnologias utilizadas
+- HTML
+- SCSS
+- JavaScript
+- React
+    
+## Bibliotecas:
+   [Slider - React Slick](https://react-slick.neostack.com/) - Carousel na parte de "Testimonials".<br />
+   [Faker](https://www.npmjs.com/package/faker) - Para gerar usuários randomicos na parte de "Testimonials" 
+    
+    
+   
 ### `yarn start`
 
 Executa o projeto no modo de desenvolvimento. 
