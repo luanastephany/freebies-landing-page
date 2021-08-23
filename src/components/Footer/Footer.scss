@@ -72,6 +72,7 @@ footer {
         color: var(--title);
         font-size: 18px;
         font-weight: 600;
+        cursor: pointer;
       }
 
       .list {
@@ -79,10 +80,11 @@ footer {
         flex-direction: column;
         gap: 10px;
         color: var(--subtitle);
+        
 
         span {
           line-height: 30px;
-          
+          cursor: pointer;
         }
       }
     }
