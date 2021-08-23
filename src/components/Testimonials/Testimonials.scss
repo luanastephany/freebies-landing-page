@@ -1,0 +1,151 @@
+.testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: var(--w-desktop);
+  padding-top: 50px;
+  padding-bottom: 180px;
+
+  h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--title);
+    width: 450px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: var(--subtitle);
+    width: 555px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .carousel-wrapper {
+   width: 100%;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 230px;
+      border-radius: 10px;
+      border: solid 2px #DDDDDD;
+      padding: 30px;
+      cursor: pointer;
+
+      .head {
+        display: flex;
+        align-items: center;
+
+        .avatar {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          background-color: grey;
+          margin-right: 20px;
+        }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          flex: 1;
+
+          .name {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--title);
+          }
+
+          .location {
+            font-size: 14px;
+            color: var(--subtitle);
+          }
+        }
+
+        .rate {
+          color: var(--title);
+          margin-right: 10;
+        }
+      }
+
+      .description {
+        color: var(--title);
+        line-height: 30px;
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    .dots {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+      .dot {
+        background-color: #DDE0E4;
+        border-radius: 8px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+
+        &.selected {
+          background-color: var(--primary);
+          width: 45px;
+        }
+
+        &:hover {
+          background-color: var(--primary);
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: 2px solid var(--primary);
+        border-radius: 50%;
+        color: var(--primary);
+
+        &:hover{
+          background-color: var(--primary);
+          color: #fff;
+        }
+      }
+    }
+  }
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
